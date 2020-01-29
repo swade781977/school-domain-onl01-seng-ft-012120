@@ -21,7 +21,7 @@ class School
     array = [7,8,9,10,11,12]
     array.each do |num|
       a[num] = @roster[num].sort 
-      return a[num]
+      puts a[num]
     end
   end
 end
