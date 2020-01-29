@@ -17,11 +17,10 @@ class School
     @roster[grade]
   end
   def sort 
-    a = []
+    a = {}
     array = [9,10,11,12]
     array.each do |num|
-      a.push(@roster[num])
-      a[num].sort
+      a[num] = @roster[num]
     end
   end
 end
