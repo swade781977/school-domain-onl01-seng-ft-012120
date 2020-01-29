@@ -21,6 +21,7 @@ class School
     array = [9,10,11,12]
     array.each do |num|
       a << @name.grade(num)
+      a[num].sort
     end
   end
 end
