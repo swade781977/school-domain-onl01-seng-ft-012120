@@ -17,12 +17,9 @@ class School
     @roster[grade]
   end
   def sort 
-    a = {}
-    array = [7,8,9,10,11,12]
-    array.each do |num|
-      a[num] = @roster[num].sort 
-    end
-    a[num]
+   @roster.keys.each do |key|
+     @roster[key].sort
+   end
   end
 end
 
