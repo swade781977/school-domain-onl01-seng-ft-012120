@@ -20,6 +20,7 @@ class School
    @roster.keys.each do |key|
      @roster[key].sort
    end
+   @roster
   end
 end
 
