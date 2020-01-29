@@ -18,7 +18,7 @@ class School
   end
   def sort 
     a = {}
-    array = [9,10,11,12]
+    array = [7,8,9,10,11,12]
     array.each do |num|
       a[num] = @roster[num].sort 
       return a[num]
