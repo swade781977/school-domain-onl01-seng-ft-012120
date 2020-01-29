@@ -20,7 +20,7 @@ class School
     a = {}
     array = [9,10,11,12]
     array.each do |num|
-      a[num] = @roster[num]
+      a[num] = @roster[num].sort 
     end
   end
 end
